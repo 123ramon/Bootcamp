@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+       <meta charset="UTF-8">
+       <title> Formularios en html </title>
+       
+  </head>
+  <body>
+  
+    <h3> Formulario de registro</h3>
+    <table border=0>
+    <tr>    
+    <td><label for="nombre">Nombre</label></td>  
+    <td><input type="text" name="nombre" placeholder="Escribe tu nombre"/></td><br/><br/>
+    </tr>   
+    <tr> 
+    <td><label for="apellido">Apellido</label></td>  
+    <td><input type="text" name="apellido" placeholder="Escribe tu apellido"/></td><br/><br/>
+    </tr>  
+    <tr>  
+    <td><label for=email>Correo electroico</label></td>  
+    <td><input type="text" name="Correo electronico" placeholder="Escribe E-mail"/></td><br/><br/>
+    </tr>
+    <tr>    
+    <td><label for="fecha">Fecha de Nacimiento</label></td>  
+    <td><input type="date" name="fecha" placeholder="Escribe tu fecha de Nacimiento"/></td><br/><br/>
+    </tr>
+    </table>    
+    <h5>Elije tu deporte favorito</h5>
+    <select name="deporte">
+    <option value="Futbol">Futbol</option>
+    <option value="Ciclismo">Ciclismo</option>
+    <option value="Basketbol">Basketbol</option>
+    <option value="Beisbol">Beisbol</option>
+    <option value="Hockey">Hockey</option>
+    <option value="Golf">Golf</option>
+    <option value="Rugby">Rugby</option>
+    </select><br/><br/>
+
+    <label for="Bio">Biografia</label>
+    <textarea name="Biografia"></textarea><br/><br/>
+
+    <input type="submit" value="enviar form"/><br/><br/>
+    <input type="submit" value="borrar datos"/>
+  </body>
+</html>
